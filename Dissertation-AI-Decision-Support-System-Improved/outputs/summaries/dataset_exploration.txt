@@ -1,0 +1,59 @@
+FIRST 5 RECORDS
+   loan_id  no_of_dependents      education self_employed  income_annum  loan_amount  loan_term  cibil_score  residential_assets_value  commercial_assets_value  luxury_assets_value  bank_asset_value loan_status
+0        1                 2       Graduate            No       9600000     29900000         12          778                   2400000                 17600000             22700000           8000000    Approved
+1        2                 0   Not Graduate           Yes       4100000     12200000          8          417                   2700000                  2200000              8800000           3300000    Rejected
+2        3                 3       Graduate            No       9100000     29700000         20          506                   7100000                  4500000             33300000          12800000    Rejected
+3        4                 3       Graduate            No       8200000     30700000          8          467                  18200000                  3300000             23300000           7900000    Rejected
+4        5                 5   Not Graduate           Yes       9800000     24200000         20          382                  12400000                  8200000             29400000           5000000    Rejected
+
+DATASET SHAPE
+(4269, 13)
+
+COLUMN NAMES
+['loan_id', 'no_of_dependents', 'education', 'self_employed', 'income_annum', 'loan_amount', 'loan_term', 'cibil_score', 'residential_assets_value', 'commercial_assets_value', 'luxury_assets_value', 'bank_asset_value', 'loan_status']
+
+DATA TYPES
+loan_id                     int64
+no_of_dependents            int64
+education                     str
+self_employed                 str
+income_annum                int64
+loan_amount                 int64
+loan_term                   int64
+cibil_score                 int64
+residential_assets_value    int64
+commercial_assets_value     int64
+luxury_assets_value         int64
+bank_asset_value            int64
+loan_status                   str
+
+MISSING VALUES
+loan_id                     0
+no_of_dependents            0
+education                   0
+self_employed               0
+income_annum                0
+loan_amount                 0
+loan_term                   0
+cibil_score                 0
+residential_assets_value    0
+commercial_assets_value     0
+luxury_assets_value         0
+bank_asset_value            0
+loan_status                 0
+
+STATISTICAL SUMMARY
+           loan_id  no_of_dependents  income_annum   loan_amount    loan_term  cibil_score  residential_assets_value  commercial_assets_value  luxury_assets_value  bank_asset_value
+count  4269.000000       4269.000000  4.269000e+03  4.269000e+03  4269.000000  4269.000000              4.269000e+03             4.269000e+03         4.269000e+03      4.269000e+03
+mean   2135.000000          2.498712  5.059124e+06  1.513345e+07    10.900445   599.936051              7.472617e+06             4.973155e+06         1.512631e+07      4.976692e+06
+std    1232.498479          1.695910  2.806840e+06  9.043363e+06     5.709187   172.430401              6.503637e+06             4.388966e+06         9.103754e+06      3.250185e+06
+min       1.000000          0.000000  2.000000e+05  3.000000e+05     2.000000   300.000000             -1.000000e+05             0.000000e+00         3.000000e+05      0.000000e+00
+25%    1068.000000          1.000000  2.700000e+06  7.700000e+06     6.000000   453.000000              2.200000e+06             1.300000e+06         7.500000e+06      2.300000e+06
+50%    2135.000000          3.000000  5.100000e+06  1.450000e+07    10.000000   600.000000              5.600000e+06             3.700000e+06         1.460000e+07      4.600000e+06
+75%    3202.000000          4.000000  7.500000e+06  2.150000e+07    16.000000   748.000000              1.130000e+07             7.600000e+06         2.170000e+07      7.100000e+06
+max    4269.000000          5.000000  9.900000e+06  3.950000e+07    20.000000   900.000000              2.910000e+07             1.940000e+07         3.920000e+07      1.470000e+07
+
+LOAN STATUS DISTRIBUTION
+loan_status
+Approved    2656
+Rejected    1613

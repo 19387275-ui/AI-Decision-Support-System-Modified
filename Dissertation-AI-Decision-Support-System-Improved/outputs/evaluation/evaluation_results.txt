@@ -1,0 +1,16 @@
+CBR SYSTEM EVALUATION
+
+Dataset: loan_approval_dataset.csv
+Test size: 20%
+Random state: 42
+Number of neighbours (k): 5
+Scaler fitted on training data only: Yes
+
+Accuracy : 0.9075
+Precision: 0.9170
+Recall   : 0.9360
+F1 Score : 0.9264
+
+Confusion Matrix
+[[278  45]
+ [ 34 497]]

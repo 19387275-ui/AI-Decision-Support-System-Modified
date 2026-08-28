@@ -1,0 +1,24 @@
+LOAN STATUS DISTRIBUTION
+loan_status
+Approved    2656
+Rejected    1613
+
+EDUCATION DISTRIBUTION
+education
+Graduate        2144
+Not Graduate    2125
+
+SELF EMPLOYED DISTRIBUTION
+self_employed
+Yes    2150
+No     2119
+
+DEPENDENTS DISTRIBUTION
+no_of_dependents
+0    712
+1    697
+2    708
+3    727
+4    752
+5    673
+

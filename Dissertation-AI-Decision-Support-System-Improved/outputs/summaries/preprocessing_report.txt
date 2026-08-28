@@ -1,0 +1,11 @@
+PREPROCESSING REPORT
+
+Original Dataset Shape: (4269, 12)
+Processed Dataset Shape: (4269, 12)
+
+Encoding Validation
+Education Null Values: 0
+Self Employed Null Values: 0
+Loan Status Null Values: 0
+Negative Residential Asset Records Found: 28
+Negative residential asset values are clipped to 0.
