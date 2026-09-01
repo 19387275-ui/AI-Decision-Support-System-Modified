@@ -22,12 +22,10 @@ pip install -r requirements.txt
 ```
 
 ### 4. Data Setup
-[If applicable, describe how to set up the dataset. E.g., "Place your data files in the `dataset/` folder."]
+The dataset was gathered from Kaggle, an open source platform, an it contained information about loan approvals for a variety of individuals.
+The dataset was stored in the "data" folder and could be accessed using the path : "C:/Dissertation-AI-Decision-Support-System/Dissertation-AI-Decision-Support-System-Improved/dataset"
 
-### 5. Configuration
-[If applicable, describe any configuration steps, e.g., API keys, environment variables.]
-
-### 6. Run the Application
+### 5. Run the Application
 To start the main application, execute the `app.py` file located in the `src` directory:
 ```bash
 python src/app.py
@@ -129,5 +127,3 @@ if HISTORY_FILE.exists():
 - `tests/`: Unit and integration tests for the project.
 - `requirements.txt`: Lists all Python dependencies.
 - `README.md`: This file, providing an overview and instructions.
-
-[Add any other relevant sections like Future Work, Contributing, License, etc.]
