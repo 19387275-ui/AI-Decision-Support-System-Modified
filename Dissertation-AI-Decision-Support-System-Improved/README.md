@@ -1,7 +1,7 @@
-# AI Decision Support System for [Your Specific Domain]
+# AI Decision Support System Using Case-Based Reasoning
 
 ## System Overview
-This project implements an AI-powered decision support system designed to [briefly describe the system's purpose and what it does]. It leverages [mention key technologies/libraries, e.g., machine learning, natural language processing] to provide [mention benefits, e.g., insights, recommendations, predictions] to users. The system is modular, allowing for easy expansion and integration with existing workflows.
+This project implements an AI-powered decision support system designed to support in decision making. It leverages [mention key technologies/libraries, e.g., machine learning, natural language processing] to provide [mention benefits, e.g., insights, recommendations, predictions] to users. The system is modular, allowing for easy expansion and integration with existing workflows.
 
 ## How to Run the System
 To get this system up and running, please follow these steps:
