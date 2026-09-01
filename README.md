@@ -30,10 +30,9 @@ To start the main application, execute the `app.py` file located in the `src` di
 ```bash
 python src/app.py
 ```
-[Add any further instructions if the app runs as a web server, requires specific arguments, etc.]
 
 ## Working of `app.py`
-The `app.py` file serves as the main entry point for the application. It typically handles [mention main responsibilities, e.g., setting up the web server, defining API endpoints, initializing ML models, processing user input]. Below is the code from `app.py`, which provides a detailed look into its structure and functionality:
+The `app.py` file serves as the main entry point for the application. It typically handles responsibilities such as setting up the web server, initializing ML models, processing user input, etc. Below is the code from `app.py`, which provides a detailed look into its structure and functionality:
 
 ```python
 """Streamlit front end for the CBR loan decision-support prototype."""
