@@ -29,6 +29,7 @@ The dataset was stored in the "data" folder and could be accessed using the path
 To start the main application, execute the `app.py` file located in the `src` directory:
 ```bash
 streamlit run .\src\app.py
+```
 
 ## Working of `app.py`
 The `app.py` file serves as the main entry point for the application. It typically handles responsibilities such as setting up the web server, initializing ML models, processing user input, etc. Below is the code from `app.py`, which provides a detailed look into its structure and functionality:
