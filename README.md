@@ -11,7 +11,7 @@ Ensure you have Python 3.8+ installed. It is recommended to use a virtual enviro
 
 ### 2. Clone the Repository
 ```bash
-git clone [Your Repository URL]
+git clone [git@github.com:19387275-ui/AI-Decision-Support-System-Modified.git]
 cd Dissertation-AI-Decision-Support-System-Improved
 ```
 
