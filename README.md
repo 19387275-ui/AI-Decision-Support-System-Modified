@@ -1,7 +1,7 @@
 # AI Decision Support System using Case-Based Reasoning
 
 ## System Overview
-This project implements an AI-powered decision support system designed to help users to come up with informed decisions with the help of argumentative intelligence solutions like Case-Based Reasoning (CBR) or Bayesian Belief Networks (BBN).It leverages Python programming libraries like numpy,pandas and scikitlearn to map the request of users with previous use cases which have been stored in memory. The system is modular, allowing for easy expansion and integration with existing workflows.
+This project implements an AI-powered decision support system designed to help users to come up with informed decisions with the help of argumentative intelligence solutions like Case-Based Reasoning (CBR).It leverages Python programming libraries like numpy,pandas and scikitlearn to map the request of users with previous use cases which have been stored in memory. The system is modular, allowing for easy expansion and integration with existing workflows.
 
 ## How to Run the System
 To get this system up and running, please follow these steps:
