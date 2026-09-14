@@ -17,7 +17,6 @@ git clone https://github.com/19387275-ui/AI-Decision-Support-System-Modified.git
 ### 3. Install Dependencies
 Navigate to the project root directory and install the required Python packages:
 ```bash
-cd Dissertation-AI-Decision-Support-System-Improved
 pip install -r requirements.txt
 ```
 
